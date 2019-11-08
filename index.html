@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sliding Puzzle</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!--<script src='main.js'></script>-->
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color:black">
+        <a class="navbar-brand" href="#">Puzzle</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <!--<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>-->
+                    <a class="nav-link" data-toggle="modal" data-target="#myModal" href="#">Home<span class="sr-only">(current)</span></a>
+                    <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+          
+                    <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">About this game</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>            
+                    <!-- Modal body -->
+                        <div class="modal-body">
+                            Modal body..
+                        </div>
+            
+                    <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">About this game</a>
+        </li>
+    </ul>
+    </div>
+    </nav>
+    <div class="tilearea">
+        <div class="tile">1</div>
+        <div class="tile">2</div>
+        <div class="tile">3</div>
+        <div class="tile">4</div>
+        <div class="tile">5</div>
+        <div class="tile">6</div>
+        <div class="tile">7</div>
+        <div class="tile">8</div>
+        <div class="tile">9</div>
+        <div class="tile">10</div>
+        <div class="tile">11</div>
+        <div id="tile12">12</div>
+        <div class="tile">13</div>
+        <div class="tile">14</div>
+        <div class="tile">15</div>
+        <div id="tile0">0</div>
+    </div>
+</body>
+</html>
